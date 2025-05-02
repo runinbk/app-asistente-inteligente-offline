@@ -18,8 +18,8 @@ graph TD
     A[Usuario] --> B[App Flutter]
     B --> C[Gestor de contexto de chat]
     B --> D[Segmentador de documentos locales]
-    B --> E[Motor de embeddings (local)]
-    B --> F[Base vectorial local (FAISS/Isar)]
+    B --> E["Motor de embeddings (local)"]
+    B --> F["Base vectorial local (FAISS/Isar)"]
     C --> G[Modelo LLM embebido]
     F --> G
     C --> H[Respuestas naturales con contexto]
